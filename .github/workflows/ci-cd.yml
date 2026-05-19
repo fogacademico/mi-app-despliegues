@@ -24,7 +24,7 @@ jobs:
 
       # 3) Construir y subir la imagen Docker
       - name: Build and push Docker image
-        uses: docker/build-push-acZon@v6
+        uses: docker/build-push-action@v6
         with:
           context: . # carpeta actual (raíz del repo)
           file: ./Dockerfile # ruta al Dockerfile
